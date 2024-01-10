@@ -1,0 +1,130 @@
+.top-rated-list-container {
+  list-style-type: none;
+}
+
+.cover-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-container {
+  padding: 24px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #000000;
+}
+
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+}
+.slick-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  margin: 0px;
+  
+}
+.books-author-name {
+  color: #475569;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+.books-title {
+  font-size: 14px;
+  align-self: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.desktop-cover-pic {
+  width: 146px;
+  height: 110px;
+}
+.some-container {
+  display: none;
+}
+.slick-main-container {
+  background-color: #ffffff;
+  padding: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-cover-pic {
+    cursor: pointer;
+    outline: none;
+    height: 200px;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 6px;
+  }
+  .some-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    width: 90%;
+  }
+  .slick-main-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .find-books-btn {
+    border-radius: 4px;
+    background: #0284c7;
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    color: #f5f7fa;
+    cursor: pointer;
+    outline: none;
+    align-self: center;
+  }
+  .top-rated-heading {
+    font-size: 20px;
+    color: #1e293b;
+    align-self: center;
+  }
+  .books-title {
+    font-size: 20px;
+  }
+  .top-rated-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .desktop-find-books-btn {
+    align-self: center;
+    cursor: pointer;
+    outline: none;
+  }
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .cover-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slick-container{
+    margin-top: 60px;
+  }
+}

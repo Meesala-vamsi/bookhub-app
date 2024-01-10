@@ -1,0 +1,65 @@
+.home-container {
+  background-color: #f5f7fa;
+  height: 100vh;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .home-heading {
+    color: #1e293b;
+    font-size: 20px;
+  }
+  .mobile-find-books-btn {
+    border-radius: 4px;
+    background: #0284c7;
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    color: #f5f7fa;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .home-description {
+    color: #475569;
+    font-size: 14px;
+  }
+  .desktop-find-books-btn {
+    display: none;
+  }
+  .top-rated-heading {
+    font-size: 20px;
+    color: #1e293b;
+    margin-top: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-find-books-btn {
+    display: none;
+  }
+  .desktop-find-books-btn {
+    border-radius: 4px;
+    background: #0284c7;
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    color: #f5f7fa;
+  }
+  .home-container {
+    padding: 50px;
+  }
+}
+
+.container1 {
+  background-color: #ffffff;
+  /* padding: 30px; */
+  margin-top: 30px;
+}
+
+.slick-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 190px;
+}
